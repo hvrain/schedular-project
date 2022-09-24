@@ -1,0 +1,23 @@
+220924
+### mySchedule 페이지 구상 및 일부 구현
+
+1. dynamicComponent의 필요성을 느끼고 구상 후 구현
+- jsx의 동작 방식을 이해
+- React.createElement를 이용하여 하위 컴포넌트를 동적으로 불러오게 함
+
+
+학습 후 느낀점
+
+1. markdown에 대한 지식 부족으로 인한 공부 필요성
+- 시간을 따로 내어 markdown을 공부
+
+2. mySchedulePage의 구상을 우선해야할 필요성 느낌
+- 구현을 뒤로 미루고 하루정도를 mySchedulePage의 구상에 투자
+
+다음 계획
+
+1. mySchedulePage의 구상을 시각화
+- 블로그에 사진을 올릴 것
+
+2. mySchedulePage의 css 
+- 스타일을 우선 적용하여 전반적 그림을 볼 필요느낌
