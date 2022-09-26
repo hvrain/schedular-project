@@ -1,0 +1,79 @@
+@use '../../style/color.scss' as *;
+@use '../../style/font.scss' as *;
+@use '../MySchedulePage.scss' as my-schedule;
+
+.today-schedule {
+  // width: my-schedule.$item-width;
+  // width: inherit;
+  // height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 7px;
+  > .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px solid $boundary-border-gray;
+    // margin-bottom: 7px;
+    // padding: 5px;
+    // padding-bottom: 10px;
+    > .title {
+      font-size: $title-size-in-item;
+    }
+    > .remain {
+      display: flex;
+      font-size: $content-size-in-item;
+      & >:first-child {
+        margin-right: 7px;
+      }
+    }
+  }
+  > .item-list {
+    > .item {
+      // height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      // margin-bottom: 10px;
+      // padding-bottom: 10px;
+      // padding: 1px 0px;
+      border-bottom: 1px solid $boundary-border-gray;
+      > .text {
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        > .title {
+          $title-height: 30px;
+          height: $title-height;
+          line-height: $title-height;
+          font-size: $title-size-in-item;
+        }
+        > .content {
+          $content-height: 20px;
+          height: $content-height;
+          line-height: $content-height;
+          font-size: $content-size-in-item;
+        }
+      }
+      > .subtext {
+        display: flex;
+        font-size: 10px;
+        > .time-remain {
+        }
+        > .arrow {
+          
+        }
+      }
+      &:last-child {
+        border-bottom: none;
+        margin-bottom: 0px;
+        > .text {
+          padding-bottom: 0px;
+        }
+      }
+    }
+  }
+}

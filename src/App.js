@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './App.css';
-import MySchedule from './mySchedulePage/MySchedule';
+import './App.scss';
+import MySchedulePage from './mySchedulePage/MySchedulePage';
 
 function App() {
   const [_uids, set_uids] = useState(['qwerty123']);
@@ -8,13 +8,13 @@ function App() {
   return (
     <div className="App">
       <header>
-        <div>My Schedular</div>
+        <div className="title">My Schedular</div>
       </header>
       <main>
-        <MySchedule _uids={_uids} />
+        <MySchedulePage _uids={_uids} />
       </main>
     </div>
   );
-}
+} 
 
 export default App;

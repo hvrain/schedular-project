@@ -18,6 +18,10 @@
 
 1. mySchedulePage의 구상을 시각화
 - 블로그에 사진을 올릴 것
+- https://blog.toss.im/wp-content/uploads/2019/03/TDS-compressor.png
 
 2. mySchedulePage의 css 
 - 스타일을 우선 적용하여 전반적 그림을 볼 필요느낌
+
+3. markdown을 공부
+- 기본만 공부
